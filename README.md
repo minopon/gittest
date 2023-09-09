@@ -1,2 +1,0 @@
-# gittestaa
-dsfadd tugigigi
