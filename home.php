@@ -1,70 +1,4 @@
-<!-- header.php ここから -->
-<!DOCTYPE html>
 
-<head>
-  <title>samurai university</title>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="description" content="samurai university" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css" />
-  <link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-  <link rel="stylesheet" type="text/css" href="styles/main_styles.css" />
-</head>
-
-<body>
-  <div class="super_container">
-    <!-- ヘッダーここから -->
-    <header class="header">
-      <div class="header_container">
-        <div class="">
-          <nav class="navbar navbar-expand-lg">
-            <div class="logo_container">
-              <div class="logo_text">
-                <a href="index.html">
-                  <img src="images/logo_big.png" />
-                  <span>Samurai University</span>
-                </a>
-              </div>
-            </div>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <i class="fa fa-bars toggle-menu" aria-hidden="true"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav flex-row ml-md-auto d-md-flex main_nav">
-                <li class="nav-item">
-                  <a class="nav-link" href="news.html">
-                    NEWS
-                    <p>ニュース</p>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="events.html">
-                    EVENT
-                    <p>イベント</p>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="courses.html">
-                    COURSES
-                    <p>コース</p>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="about_us.html">
-                    ABOUT US
-                    <p>侍大学について</p>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </nav>
-        </div>
-      </div>
-    </header>
-    <!-- ヘッダー ここまで -->
-    <!-- header.php ここまで -->
     <?php get_header();?>
     <!-- メインビジュアル -->
     <div class="home">
@@ -78,7 +12,7 @@
             </ol>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="<?php echo get_template_directory_uri(); ?>images/top1_1200_630.jpg" class="d-block w-100" style="background-color: #2b7b8e26" />
+                <img src="<?php echo get_template_directory_uri(); ?>/images/top1_1200_630.jpg" class="d-block w-100" style="background-color: #2b7b8e26" />
                 <div class="carousel-caption d-none d-md-block">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/logo_big_slide.png" />
                   <div class="title-slide">
@@ -95,9 +29,9 @@
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="<?php echo get_template_directory_uri(); ?>images/top2_1200_630.jpg" class="d-block w-100" />
+                <img src="<?php echo get_template_directory_uri(); ?>/images/top2_1200_630.jpg" class="d-block w-100" />
                 <div class="carousel-caption d-none d-md-block">
-                  <img src="<?php echo get_template_directory_uri(); ?>images/logo_big_slide.png" />
+                  <img src="<?php echo get_template_directory_uri(); ?>/images/logo_big_slide.png" />
                   <div class="title-slide">
                     <p>Samurai University</p>
                   </div>
@@ -112,9 +46,9 @@
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="<?php echo get_template_directory_uri(); ?>images/top3_1200_630.jpg" class="d-block w-100" />
+                <img src="<?php echo get_template_directory_uri(); ?>/images/top3_1200_630.jpg" class="d-block w-100" />
                 <div class="carousel-caption d-none d-md-block">
-                  <img src="<?php echo get_template_directory_uri(); ?>images/logo_big_slide.png" />
+                  <img src="<?php echo get_template_directory_uri(); ?>/images/logo_big_slide.png" />
                   <div class="title-slide">
                     <p>Samurai University</p>
                   </div>
@@ -267,7 +201,7 @@
           <div class="col-lg-4 course_col">
             <div class="course">
               <div class="course_image">
-                <img src="<?php echo get_template_directory_uri(); ?>images/pic6-3.jpg" alt="" />
+                <img src="<?php echo get_template_directory_uri(); ?>/images/pic6-3.jpg" alt="" />
               </div>
               <div class="course_body">
                 <h3 class="course_title">
@@ -289,7 +223,7 @@
           <div class="col-lg-4 course_col">
             <div class="course">
               <div class="course_image">
-                <img src="<?php echo get_template_directory_uri(); ?>images/pic6-1.jpg" alt="" />
+                <img src="<?php echo get_template_directory_uri(); ?>/images/pic6-1.jpg" alt="" />
               </div>
               <div class="course_body">
                 <h3 class="course_title">
@@ -311,7 +245,7 @@
           <div class="col-lg-4 course_col">
             <div class="course">
               <div class="course_image">
-                <img src="<?php echo get_template_directory_uri(); ?>images/pic6-4.jpg" alt="" />
+                <img src="<?php echo get_template_directory_uri(); ?>/images/pic6-4.jpg" alt="" />
               </div>
               <div class="course_body">
                 <h3 class="course_title"><a href="courses_detail.html">法学部</a></h3>
@@ -333,7 +267,7 @@
 
     <!-- 数字 -->
     <div class="counter">
-      <div class="counter_background" style="background-image: url(<?php echo get_template_directory_uri();?>images/pic_chart.png)"></div>
+      <div class="counter_background" style="background-image: url(<?php echo get_template_directory_uri();?>/images/pic_chart.png)"></div>
       <div class="footer_row">
         <div class="">
           <div class="">
@@ -342,28 +276,28 @@
                 <div class="milestone col-md-3 col-lg-3 col-sx-12">
                   <div class="milestone_counter">
                     <p>教授数</p>
-                    <img src="<?php echo get_template_directory_uri(); ?>images/icon4.png" alt="" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/icon4.png" alt="" />
                     <span class="milestone_number">335</span><span class="milestone_count">名</span>
                   </div>
                 </div>
                 <div class="milestone col-md-3 col-lg-3 col-sx-12">
                   <div class="milestone_counter">
                     <p>卒業生徒</p>
-                    <img src="<?php echo get_template_directory_uri(); ?>images/icon3.png" alt="" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/icon3.png" alt="" />
                     <span class="milestone_number">4526</span><span class="milestone_count">名</span>
                   </div>
                 </div>
                 <div class="milestone col-md-3 col-lg-3 col-sx-12">
                   <div class="milestone_counter">
                     <p>学習コース</p>
-                    <img src="<?php echo get_template_directory_uri(); ?>images/icon2.png" alt="" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/icon2.png" alt="" />
                     <span class="milestone_number">12</span><span class="milestone_count">コース</span>
                   </div>
                 </div>
                 <div class="milestone col-md-3 col-lg-3 col-sx-12">
                   <div class="milestone_counter">
                     <p>受賞</p>
-                    <img src="<?php echo get_template_directory_uri(); ?>images/icon1.png" alt="" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/icon1.png" alt="" />
                     <span class="milestone_number">35</span><span class="milestone_count">回</span>
                   </div>
                 </div>
@@ -375,84 +309,4 @@
     </div>
     <!-- 数字ここまで -->
     <?php get_footer(); ?>
-    <!-- footer.php ここから -->
-    <footer class="footer">
-      <div class="row footer_row">
-        <div class="col">
-          <div class="footer_content">
-            <div class="row">
-              <div class="col-lg-4 footer_col">
-                <div class="footer_section footer_about">
-                  <div class="footer_logo_container">
-                    <img src="images/logo_big.png" alt="" />
-                    <a href="">
-                      <div class="footer_logo_text">Samurai University</div>
-                    </a>
-                  </div>
-                  <div class="footer_contact_info">
-                    <div>〒150-0043</div>
-                    <div>東京都渋谷区道玄坂2丁目11-1 Gスクエア渋谷道玄坂4F</div>
-                    <ul>
-                      <li><span>TEL: </span>03-2222-11</li>
-                      <li><span>MAIL: </span>: sample@sejuku.net</li>
-                    </ul>
-                  </div>
-                  <div class="footer_social">
-                    <ul>
-                      <li>
-                        <a href="https://twitter.com/samuraijuku"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                      </li>
-                      <li>
-                        <a href="https://www.facebook.com/sejuku2013/"><i class="fa fa-facebook"
-                            aria-hidden="true"></i></a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-3 footer_col">
-                <div class="footer_section footer_links">
-                  <div class="footer_links_container">
-                    <ul>
-                      <li><a href="news.html">ニュース</a></li>
-                      <li><a href="events.html">イベント</a></li>
-                      <li><a href="courses.html">コース</a></li>
-                      <li><a href="about_us.html">侍大学について</a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-5 footer_col clearfix">
-                <a class="twitter-timeline" data-height="265"
-                  href="https://twitter.com/samuraijuku?ref_src=twsrc%5Etfw">Tweets by samuraijuku</a>
-                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row copyright_row">
-        <div class="col">
-          <div class="copyright d-flex flex-lg-row flex-column align-items-center justify-content-start">
-            <div class="cr_text">
-              Copyright &copy; Samurai University All Rights Reserved.
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
-  </div>
 
-  <!--jQuery-->
-  <script src="js/jquery-3.2.1.min.js"></script>
-  <script src="styles/bootstrap4/popper.js"></script>
-  <script src="styles/bootstrap4/bootstrap.min.js"></script>
-
-  <script type="text/javascript">
-    $(".carousel").carousel();
-  </script>
-
-</body>
-
-</html>
-<!-- footer.php ここまで -->
